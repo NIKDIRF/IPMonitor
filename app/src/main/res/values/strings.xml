@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IPMonitor</string>
+    <string name="ip">IP</string>
+</resources>

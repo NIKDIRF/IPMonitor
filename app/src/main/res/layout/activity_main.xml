@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/grey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ipButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="@string/ip"
+        android:textColor="@color/blue"
+        android:textSize="100sp"
+        android:background="@drawable/ip_button_selector"
+        app:rippleColor="#332196F3"
+        app:strokeColor="#2196F3"
+        app:strokeWidth="2dp"
+        app:elevation="8dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@id/ipText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/ipText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        tools:text="Your IP: "
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideLine_60"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLine_60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

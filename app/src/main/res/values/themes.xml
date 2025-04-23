@@ -1,0 +1,11 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IPMonitor" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/grey</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.IPMonitor" parent="Base.Theme.IPMonitor" />
+</resources>
