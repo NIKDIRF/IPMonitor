@@ -29,3 +29,8 @@
 ## Системные требования
 - Android 10 (API 29) и выше
 - Интернет-соединение
+
+## Контакты разработчика
+
+[![Telegram](https://img.shields.io/badge/Telegram-@FridkinDaniil-blue?style=flat&logo=telegram)](https://t.me/FridkinDaniil)  
+[![Email](https://img.shields.io/badge/Email-daniilfridkin@gmail.com-red?style=flat&logo=gmail)](mailto:daniilfridkin@gmail.com)
